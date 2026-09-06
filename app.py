@@ -35,7 +35,7 @@ if not api_key:
     st.stop()
 
 llm = LLM(
-    model="gpt-6-astra", #""gpt-4o-mini",
+    model="gpt-5.6-luna", #""gpt-4o-mini",
     api_key=api_key,
     temperature=0.2
 )
